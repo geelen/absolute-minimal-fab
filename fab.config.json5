@@ -9,20 +9,11 @@
     }
   },
   deploy: {
-    'aws-lambda-edge': {
-      access_key: 'AKIAWIORJFSCPRR4HZ5C',
-      cf_distribution_id: 'E2PYIF66BNVWLQ',
-      lambda_arn: 'arn:aws:lambda:us-east-1:430472506500:function:geelen-minimal-fab-renderer',
-      secret_key: '@AWS_LAMBDA_SECRET_KEY',
-      region: 'us-east-1'
-    },
     'cf-workers': {
-      account_id: 'cd3d2f25fb7dfdd4e8be7f187b2cbad1',
+      account_id: '@CF_WORKERS_ACCOUNT_ID',
       api_token: '@CF_WORKERS_API_KEY',
-      script_name: 'test-cf-releaser-auto',
-      workers_dev: true,
-      zone_id: 'lol',
-      route: 'yeah.nah/*'
+      script_name: 'absolute-minimal-fab',
+      workers_dev: true
     }
   }
 }

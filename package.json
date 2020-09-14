@@ -19,16 +19,17 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@fab/cli": "1.0.0-rc.6",
     "@fab/actions": "1.0.0-rc.6",
+    "@fab/cli": "1.0.0-rc.6",
     "@fab/deployer-aws-lambda": "1.0.0-rc.6",
     "@fab/deployer-aws-s3": "1.0.0-rc.6",
     "@fab/input-static": "1.0.0-rc.6",
-    "@fab/plugin-rewire-assets": "1.0.0-rc.6",
     "@fab/plugin-render-html": "1.0.0-rc.6",
+    "@fab/plugin-rewire-assets": "1.0.0-rc.6",
     "@fly/v8env": "^0.54.0"
   },
   "devDependencies": {
+    "@fab/deployer-cf-workers": "^1.0.0-rc.6",
     "@fab/server": "1.0.0-rc.6",
     "rollup": "^1.27.9"
   }

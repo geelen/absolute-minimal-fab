@@ -3,3 +3,4 @@ fab.zip
 node_modules
 yarn-error.log
 /build
+.env
