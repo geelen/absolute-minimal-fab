@@ -3,8 +3,8 @@
     '@fab/input-static': {
       dir: 'src'
     },
-    '@fab/serve-html': { fallback: false },
-    '@fab/rewire-assets': {
+    '@fab/plugin-render-html': { fallback: false },
+    '@fab/plugin-rewire-assets': {
       'inline-threshold': 10
     }
   },
